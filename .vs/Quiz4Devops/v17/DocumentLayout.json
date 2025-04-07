@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rashid\\source\\repos\\Quiz4Devops\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00E567D0-92BF-41AF-AA30-CAE7EC6E3E14}|Quiz4Devops\\Quiz4Devops.csproj|c:\\users\\rashid\\source\\repos\\quiz4devops\\quiz4devops\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00E567D0-92BF-41AF-AA30-CAE7EC6E3E14}|Quiz4Devops\\Quiz4Devops.csproj|solutionrelative:quiz4devops\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E567D0-92BF-41AF-AA30-CAE7EC6E3E14}|Quiz4Devops\\Quiz4Devops.csproj|c:\\users\\rashid\\source\\repos\\quiz4devops\\quiz4devops\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00E567D0-92BF-41AF-AA30-CAE7EC6E3E14}|Quiz4Devops\\Quiz4Devops.csproj|solutionrelative:quiz4devops\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rashid\\source\\repos\\Quiz4Devops\\Quiz4Devops\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Quiz4Devops\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Rashid\\source\\repos\\Quiz4Devops\\Quiz4Devops\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Quiz4Devops\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T16:02:29.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Rashid\\source\\repos\\Quiz4Devops\\Quiz4Devops\\Program.cs",
+              "RelativeDocumentMoniker": "Quiz4Devops\\Program.cs",
+              "ToolTip": "C:\\Users\\Rashid\\source\\repos\\Quiz4Devops\\Quiz4Devops\\Program.cs",
+              "RelativeToolTip": "Quiz4Devops\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T16:02:20.652Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
