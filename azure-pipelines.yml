@@ -3,7 +3,7 @@ trigger:
 - main
 
 pool:
-  name: Default  
+  name: Default  # Self-hosted agent pool
 
 variables:
   buildConfiguration: 'Release'
@@ -11,23 +11,35 @@ variables:
 steps:
 - script: echo "Database access implementation checked - Build starting..."
 
+# .NET SDK setup
 - task: UseDotNet@2
   inputs:
     packageType: 'sdk'
     version: '8.0.x'
 
+# Restore NuGet packages
 - task: DotNetCoreCLI@2
   displayName: 'Restore packages'
   inputs:
     command: 'restore'
     projects: '**/*.csproj'
 
+# Build project
 - task: DotNetCoreCLI@2
   displayName: 'Build project'
   inputs:
     command: 'build'
     arguments: '--configuration $(buildConfiguration)'
 
+# Add this publish step to generate artifacts
+- task: DotNetCoreCLI@2
+  displayName: 'Publish Project'
+  inputs:
+    command: 'publish'
+    arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)'
+    publishWebProjects: true  # Required for ASP.NET Core web apps
+
+# Publish artifacts (now the directory won't be empty)
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
